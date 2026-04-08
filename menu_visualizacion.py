@@ -5,7 +5,7 @@ from collections import Counter
 from wordcloud import WordCloud
 from configuracion import *
 
-#nos conectamos a MySQL
+#nos conectamos a MySQL 
 mysql_conexion = pymysql.connect(
     host=SQL_HOST,
     user=SQL_USER,
